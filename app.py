@@ -24,4 +24,4 @@ def get_student_by_id(student_id):
         return jsonify({'error': 'Student not found'}), 404  
 
 if __name__ == '__main__':
-    todo.run(host='0.0.0.0', port=5005, debug=True)
+    todo.run(debug=True)
